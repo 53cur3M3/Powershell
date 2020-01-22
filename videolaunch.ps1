@@ -12,8 +12,3 @@ ForEach ($url in $urls) {
 
   Start-Sleep -Seconds 10
 }
-
-#Start-Job -Scriptblock {
-# Add-Type -AssemblyName System.Windows.Forms
-# [System.Windows.Forms.MessageBox]::Show("Greetings from 53cur3M3", "Greetings from 53cur3M3" , 0)
-#}
