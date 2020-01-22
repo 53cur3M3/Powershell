@@ -12,3 +12,5 @@ ForEach ($url in $urls) {
 
   Start-Sleep -Seconds 60
 }
+
+[System.Windows.MessageBox]::Show('Greetings from 53cur3M3')
